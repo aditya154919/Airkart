@@ -283,7 +283,7 @@ const Profile = () => {
                       name="mobileNo"
                       value={updateUser.mobileNo}
                       onChange={handleChange}
-                      placeholder="7070397841"
+                      placeholder="Enter your phine no"
                       className="h-11 border-slate-200 focus:border-sky-500 focus:ring-sky-500/20 bg-slate-50/30 transition-all"
                     />
                   </div>
