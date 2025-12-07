@@ -92,11 +92,11 @@ const Profile = () => {
   const [updateUser, setUpdateUser] = useState({
     name: user?.name,
     email: user?.email,
-    age: user?.age,
-    dateOfBirth: user?.dateOfBirth,
+    age: "",
+    dateOfBirth:"",
     password:"",
-    mobileNo: user?.mobileNo,
-    aadharNo: user?.aadharNo,
+    mobileNo: "",
+    aadharNo: "",
     avatar: user?.avatar,
   });
 
