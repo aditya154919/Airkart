@@ -47,12 +47,12 @@ const Home = ({ openNav }) => {
       {openNav ? (
         <div className="max-h-screen"></div>
       ) : (
-        <div className="flex  md:ml-137">
+        <div className="flex max-h-screen  md:ml-137">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="w-full max-w-2xl bg-white/70 backdrop-blur-md rounded-2xl shadow-2xl  md:p-9"
+            className="w-full max-w-2xl bg-white/70 p-6 backdrop-blur-md rounded-2xl shadow-2xl  md:p-9"
           >
             {/* Title */}
             <motion.h1
